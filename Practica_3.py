@@ -1,3 +1,9 @@
+"""
+> create database links;
+> use links;
+> create table paginas (Pagina varchar(70) primary key, Status BOOLEAN);
+"""
+
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
 import mysql.connector as mysql
